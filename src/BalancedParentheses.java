@@ -29,3 +29,11 @@ public class BalancedParentheses {
         System.out.println(balancedParentheses(""));
     }
 }
+
+// The runtime complexity is O(n), where n is the length of the input string s.
+//
+// The function iterates through each character of the string using a for loop,
+// performing constant-time operations such as checking if a character is an opening or closing parenthesis
+// and updating a counter accordingly.
+//
+// Overall time complexity is linear, O(n), since the number of operations scales linearly with the length of the input string.

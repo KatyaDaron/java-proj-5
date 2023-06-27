@@ -37,3 +37,12 @@ public class BalancedBrackets {
         System.out.println(balancedBrackets("<({)}>"));
     }
 }
+
+// Runtime complexity is O(n), where n is the length of the input string s.
+//
+// In the function, we iterate through each character of the string once using a for loop.
+// Within each iteration, the operations performed are constant time operations: checking if a character is a key in the map,
+// pushing or popping from the stack and comparing characters.
+// These operations take constant time regardless of the size of the input.
+//
+// Overall time complexity is linear, O(n), because the number of operations scales linearly with the length of the input string.
