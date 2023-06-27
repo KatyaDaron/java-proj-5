@@ -2,8 +2,6 @@
 //A string has balanced parentheses if every opening parenthesis “(“ has a matching closing parenthesis “)” that closes the corresponding opening parenthesis.
 //For the purposes of this problem, you only need to worry about parentheses “(“and “)”, not other opening-and-closing marks, like curly brackets, square brackets, or angle brackets.
 
-import java.util.Stack;
-
 public class BalancedParentheses {
     public static boolean balancedParentheses(String s) {
         int numUnclosedOpenParens = 0;
@@ -14,7 +12,7 @@ public class BalancedParentheses {
             } else if (c == ')') {
                 numUnclosedOpenParens--;
             }
-            
+
             if (numUnclosedOpenParens < 0) {
                 return false;
             }
